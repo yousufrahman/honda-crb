@@ -1,0 +1,53 @@
+.img {
+    width: 288px;
+    height: 243px;
+}
+
+.font {
+    color: #E76F51;
+}
+
+.bg {
+    background: #264653;
+    color: #FFFFFF;
+}
+
+.modal-background {
+    background: #E76F51;
+    border-radius: 5px;
+}
+
+.image-2 {
+    filter: grayscale(100%);
+}
+
+
+/*-----------------
+-----------------------------
+              section-2 stylesheet 
+            ------------------------------
+                   ------------------------------ */
+
+.section-2-margin {
+    margin-top: 160px;
+}
+
+.section-2-div {
+    width: 322px;
+    height: 479px;
+    padding: 40px 35px 40px 35px;
+}
+
+.section-2-img {
+    width: 149px;
+    height: 149px;
+}
+
+.section-2-wh {
+    width: 252px;
+    height: 219px;
+}
+
+.button-background {
+    background: #E76F51;
+}
