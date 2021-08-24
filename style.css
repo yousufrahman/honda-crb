@@ -21,6 +21,11 @@
     filter: grayscale(100%);
 }
 
+.margin {
+    margin-top: 160px;
+    margin-bottom: 47px;
+}
+
 
 /*-----------------
 -----------------------------
@@ -34,7 +39,7 @@
 
 .section-2-div {
     width: 322px;
-    height: 479px;
+    height: 490px;
     padding: 40px 35px 40px 35px;
 }
 

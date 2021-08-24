@@ -11,57 +11,49 @@
 
     <!-- bootstrap style link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e4a4bc4874.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <div class="container bg d-flex justify-content-between gy-5 w-auto align-items-center h-44 mr-12 section-2-margin">
-            <div class="m-auto">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <h1>HONDA CBR 300R</h1>
-                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Itaque, numquam? Debitis earum, dicta,<br> laudantium reiciendis temporibus inventore unde eos explicabo,<br>qui non quos repudiandae voluptatibus.</p>
-                <!-- <button type="button" class="btn btn-primary">Primary</button> -->
-
-                <div class="modal fade " id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                Sportbikes—especially 600-class machines—are for riders who want to feel the highest degree of connection with their motorcycles. Because the greater the connection, the more rewarding the ride. And that’s why we strive to make our Honda CBR600RR models
-                                as good as they are. The high-revving inline-four engine is instantly responsive. The aluminum chassis and premium suspension precisely connect you with the road like nothing else.
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                Hide this modal and show the first with the button below.
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn bg-warning" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+        <!-- Heder Start -->
+        <section style="background-color: #264653;">
+            <div class="row   d-flex justify-content-center  align-items-center  enable-rounded  mx-auto p-5 ">
+                <div class=" container-12 col-6  col-sm-12 col-xl-6 text-white">
+                    <p style="color:rgb(177, 168, 168);">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1>Honda CBR 300R</h1>
+                    <p style="color: rgb(177, 168, 168);">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <!-- Button trigger modal -->
+                    <button style="background-color: #E76F51; width: 132px;" type="button" class="btn  text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Purchase
+                         </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body Dark">
+                                    <p class="font">Modal body text goes here.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a class="btn bg-warning" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Purchase</a>
-
+                <div class=" container-12 col-6 col-sm-12 col-xl-6">
+                    <img src="images-honda/header-bike.png" alt="">
+                </div>
             </div>
-            <div class="m-auto w-35 h-32">
-                <img class="img-fluid" src="images-honda/header-bike.png" alt="">
-            </div>
-        </div>
+        </section>
+        <!-- Heder End -->
     </header>
     <main>
         <section>
@@ -71,7 +63,7 @@
 
             </div>
             <!-- images div  -->
-            <div class="container ">
+            <div class="container">
                 <div class="row gap-9 m-auto">
                     <div class="col" style="width: 288px;">
                         <div class="img image-2"> <img class="img-fluid" src="images-honda/feature-bike.jpg" alt=""></div>
@@ -90,20 +82,66 @@
         </section>
         <!-- section two  -->
         <section>
-            <h2 class="text-center">
+            <h2 class="text-center margin">
                 Happy <span class="font">Clients Says</span>
             </h2>
-            <div class="container d-flex align-items-center section-2-margin">
+            <div class="container d-flex justify-content-center aline-center gap-lg-5">
 
 
-                <div class="section-2-div border border-primary">
-                    <div class="section-2-img">
+                <div class="section-2-div shadow-lg">
+                    <div class="section-2-img mx-auto align-baseline">
                         <img class="img-fluid" src="images-honda/user-1.png" alt="">
                     </div>
-                    <div class="section-2-wh">
-                        <h2>Ducati XDIAVEL S-73</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, esse.Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, esse.</p>
-                        <button type="button" class="btn bg-warning w-50 ">Primary</button>
+                    <div class="section-2-wh text-align-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, esse.Lorem ipsum dolor sit amet consectetur adip.dolor sit amet consectetur adip.</p>
+                        <div>
+                            <span class="d-flex justify-content-center aline-center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="d-flex justify-content-center aline-center">
+                            <h3>Regina Miles</h3>
+
+                        </div>
+                        <div class="d-flex justify-content-center aline-center">
+                            <h4>Banker</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section-2-div shadow-lg">
+                    <div class="section-2-img mx-auto align-baseline">
+                        <img class="img-fluid" src="images-honda/user-1.png" alt="">
+                    </div>
+                    <div class="section-2-wh text-align-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, esse.Lorem ipsum dolor sit amet consectetur adip.dolor sit amet consectetur adip.</p>
+                        <div>
+                            <span class="d-flex justify-content-center aline-center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="d-flex justify-content-center aline-center">
+                            <h3>Regina Miles</h3>
+
+                        </div>
+                        <div class="d-flex justify-content-center aline-center">
+                            <h4>Banker</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section-2-div shadow-lg">
+                    <div class="section-2-img mx-auto align-baseline">
+                        <img class="img-fluid" src="images-honda/user-1.png" alt="">
+                    </div>
+                    <div class="section-2-wh text-align-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, esse.Lorem ipsum dolor sit amet consectetur adip.dolor sit amet consectetur adip.</p>
+                        <div>
+                            <span class="d-flex justify-content-center aline-center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="d-flex justify-content-center aline-center">
+                            <h3>Regina Miles</h3>
+
+                        </div>
+                        <div class="d-flex justify-content-center aline-center">
+                            <h4>Banker</h4>
+                        </div>
                     </div>
 
                 </div>
@@ -111,6 +149,87 @@
 
             </div>
         </section>
+        <!-- section three  -->
+        <!-- start Frequently Asked Questions -->
+        <section class="container my-5">
+            <div class="d-flex justify-content-center  align-items-center fs-2 fw-bold my-5">
+                <h1 class="fw-bold">Frequently Asked <span style="color: #E76F51;">  Questions</span></h1>
+            </div>
+            <div class="row d-flex justify-content-center  align-items-center">
+                <div class="col-6">
+                    <img style="width: 422px; height: auto;" src="images-honda/" alt="">
+                </div>
+                <div class="col-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          What are the most important things I should
+                          know about riding a bike?
+                        </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow-lg p-3 mb-2 bg-body rounded">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow-lg p-3 mb-2 bg-body rounded">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          What are the most important things I should
+                          know about riding a bike?
+                        </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow-lg p-3 mb-2 bg-body rounded">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          What are the most important things I should
+                          know about riding a bike?
+                        </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow-lg p-3 mb-2 bg-body rounded">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          What are the most important things I should
+                          know about riding a bike?
+                        </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item shadow-lg p-3 mb-5 bg-body rounded">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Alinur
+                     </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just
+                                    filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Frequently Asked Questions -->
 
     </main>
     <footer>
@@ -118,7 +237,7 @@
     </footer>
 
     <!-- bootstrap js link  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj " crossorigin="anonymous "></script>
 </body>
 
 </html>
